@@ -1,0 +1,307 @@
+#log:hover{
+    background-color:hsl(180, 66%, 49%);
+    color: white;
+}
+#sign:hover{
+    background-color: blue;
+    color: white;
+}
+
+.navbarscustom{
+    background-color: white;
+  }
+  @media screen and (max-width:500px){
+    .navbarscustom{
+      background-color:hsl(257, 27%, 26%);
+    }
+  }
+  
+   
+    .searchbar{
+      width: 400px;
+      margin-right: 40px;
+    }
+  @media (max-width:575px){
+  .searchbar{
+    width: 450px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  }
+  @media (max-width:500px){
+    .searchbar{
+    width:250px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  }
+  
+  
+  #button{
+    width: 100px;
+    margin-left: 10px;
+  
+  }
+  
+  @media (max-width:620px){
+  #button{
+  width: 100px;
+  margin-left: 30px;
+  }
+  }
+  
+  @media (max-width:590px){
+  #button{
+  width: 100px;
+  margin-left: 50px;
+  }
+  }
+  
+  @media (max-width:575px){
+  #button{
+  width: 450px;
+  margin-left: 30px;
+  
+  }
+  }
+  
+  @media(max-width:500px){
+    #button{
+      width:250px;
+      margin-left:25px ;
+    }
+  }
+  
+  
+  .imageback{
+    background-color:hsl(257, 27%, 26%);
+    height: 150px;
+    width: 90%;
+   margin-left: 65px;
+   position: relative;
+   top: 50px;
+    
+  }
+  
+  @media (max-width:1100px){
+  .imageback{
+    margin: 0px;
+    width: 100%;
+  }
+    
+  }
+  @media (max-width:575px){
+  .imageback{
+    margin: 0px;
+    width: 100%;
+  }
+    
+  }
+  
+  @media (max-width:500px){
+  .imageback{
+    margin: 0px;
+    width: 100%;
+  }
+    
+  }
+  .borderline{
+    border: 1px solid white;
+    background-color: hsl(180, 66%, 49%);
+    width: 80%;
+    height: 20px;
+    position:absolute;
+    top:950px;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  @media(max-width:768px){
+    .borderline{
+    
+        border: 1px solid white;
+        background-color: hsl(180, 66%, 49%);
+        width: 10%; /* Vertical box width */
+        height: 950px; /* Increased height for vertical layout */
+        position: absolute;
+        top: 1100px; /* Positioning as needed */
+        margin-left: 45%;
+       
+ 
+    }
+  }
+  @media(max-width:425px){
+    .borderline{
+    
+        border: 1px solid white;
+        background-color: hsl(180, 66%, 49%);
+        width: 10%; /* Vertical box width */
+        height: 950px; /* Increased height for vertical layout */
+        position: absolute;
+        top: 1100px; /* Positioning as needed */
+        margin-left: 45%;
+       
+ 
+    }
+  }
+  @media(max-width:375px){
+    .borderline{
+    
+        border: 1px solid white;
+        background-color: hsl(180, 66%, 49%);
+        width: 10%; /* Vertical box width */
+        height: 950px; /* Increased height for vertical layout */
+        position: absolute;
+        top: 1100px; /* Positioning as needed */
+        margin-left: 45%;
+       
+ 
+    }
+  }
+  @media(max-width:320px){
+    .borderline{
+    
+        border: 1px solid white;
+        background-color: hsl(180, 66%, 49%);
+        width: 10%; /* Vertical box width */
+        height: 950px; /* Increased height for vertical layout */
+        position: absolute;
+        top: 1100px; /* Positioning as needed */
+        margin-left: 43%;
+       
+ 
+    }
+  }
+
+
+
+  
+
+  
+  
+  .icon1 {
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+}
+
+ /* For screens less than or equal to 768px */
+ @media(max-width: 768px) {
+  .icon1 {
+      left: auto; /* Reset the left value */
+      margin-left: 46%;
+  }
+}
+@media(max-width: 766px) {
+  .icon1 {
+      left: auto; /* Reset the left value */
+      margin-left: 43%;
+  }
+}
+/* For screens less than or equal to 375px */
+@media(max-width: 425px) {
+  .icon1 {
+      margin-left: 42%;
+  }
+}
+/* For screens less than or equal to 375px */
+@media(max-width: 375px) {
+  .icon1 {
+      margin-left: 40px;
+  }
+}
+
+/* For screens less than or equal to 320px */
+@media(max-width: 320px) {
+  .icon1 {
+      margin-left: 38%;
+  }
+}
+
+  
+  
+  .icon2{
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+  }
+ /* For screens less than or equal to 768px */
+ @media(max-width: 768px) {
+  .icon2 {
+      left: auto; /* Reset the left value */
+      margin-left: 46%;
+  }
+}
+@media(max-width: 766px) {
+  .icon2 {
+      left: auto; /* Reset the left value */
+      margin-left: 43%;
+  }
+}
+/* For screens less than or equal to 375px */
+@media(max-width: 425px) {
+  .icon2 {
+      margin-left: 42%;
+  }
+}
+/* For screens less than or equal to 375px */
+@media(max-width: 375px) {
+  .icon2 {
+      margin-left: 40px;
+  }
+}
+
+/* For screens less than or equal to 320px */
+@media(max-width: 320px) {
+  .icon2 {
+      margin-left: 38%;
+  }
+}
+
+
+  
+  .icon3{
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+  }
+ /* For screens less than or equal to 768px */
+@media(max-width: 768px) {
+  .icon3 {
+      left: auto; /* Reset the left value */
+      margin-left: 46%;
+  }
+}
+@media(max-width: 766px) {
+  .icon3 {
+      left: auto; /* Reset the left value */
+      margin-left: 43%;
+  }
+}
+/* For screens less than or equal to 375px */
+@media(max-width: 425px) {
+  .icon3 {
+      margin-left: 42%;
+  }
+}
+/* For screens less than or equal to 375px */
+@media(max-width: 375px) {
+  .icon3 {
+      margin-left: 40px;
+  }
+}
+
+/* For screens less than or equal to 320px */
+@media(max-width: 320px) {
+  .icon3 {
+      margin-left: 38%;
+  }
+}
+
+
+  
+  
+  
+  
